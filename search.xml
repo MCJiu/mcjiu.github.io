@@ -8,6 +8,8 @@
       <link href="/2020/07/06/MCJiu%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/"/>
       <url>/2020/07/06/MCJiu%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/</url>
       
+        <content type="html"><![CDATA[<h3 id="博客大致介绍"><a href="#博客大致介绍" class="headerlink" title="博客大致介绍"></a>博客大致介绍</h3><blockquote><ol><li>博客的搭建和大致配置花费了 0 CNY !真是伟大的白嫖成就！</li><li>博客使用的域名是 blog.mcjiu.ml ，麻烦按<key>Ctrl</key>+<key>D</key>加入书签一波~ <del>至于域名以  .ml 结尾就不要吐槽了，因为这是免费域名，以 .com 结尾的域名需要付费，这样就不能达成第一条成就了。。</del></li><li>博客计划投放一些我未来的原创文章，例如原创书评和其他一些诡异的东西</li><li>博客的更新应该会非常缓慢，因为假期很少 <del>（连暑假都只放5天假）</del> </li><li>博客在更新的时候（包括更新配置和更新文章）会出现短暂的无法访问的情况，大致持续2-3min</li></ol></blockquote><h3 id="博客配置"><a href="#博客配置" class="headerlink" title="博客配置"></a>博客配置</h3><blockquote><ol><li>博客使用Github Pages搭建，使用Cloudflare DNS服务，具有一定的反D-Dos性能</li><li>博客使用TLS 1.3加密传输，但可能有部分引用使用http未加密协议</li><li>博客主题Butterfly</li><li>博客所有者：MCJiu (或称 Vagrant)</li></ol></blockquote><p><strong><em>OK,等着更新吧。。</em></strong></p>]]></content>
+      
       
       
         <tags>
