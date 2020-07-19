@@ -1,0 +1,163 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><title>竞赛生史·戈骚传 | Welcome to MCJiu's Blog!</title><meta name="description" content="竞赛生史系列 胡教授著"><meta name="author" content="MCJiu,2079908934@qq.com"><meta name="copyright" content="MCJiu"><meta name="format-detection" content="telephone=no"><link rel="shortcut icon" href="/img/favicon.png"><link rel="canonical" href="https://mcjiu.github.io/2020/07/13/%E7%AB%9E%E8%B5%9B%E7%94%9F%E5%8F%B2%C2%B7%E6%88%88%E9%AA%9A%E4%BC%A0/"><meta http-equiv="Cache-Control" content="no-transform"><meta http-equiv="Cache-Control" content="no-siteapp"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//fonts.googleapis.com" crossorigin="crossorigin"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><meta property="og:type" content="article"><meta property="og:title" content="竞赛生史·戈骚传"><meta property="og:url" content="https://mcjiu.github.io/2020/07/13/%E7%AB%9E%E8%B5%9B%E7%94%9F%E5%8F%B2%C2%B7%E6%88%88%E9%AA%9A%E4%BC%A0/"><meta property="og:site_name" content="Welcome to MCJiu's Blog!"><meta property="og:description" content="竞赛生史系列 胡教授著"><meta property="og:image" content="https://mcjiu.github.io/img/cover2.jpg"><meta property="article:published_time" content="2020-07-12T16:00:00.000Z"><meta property="article:modified_time" content="2020-07-19T07:35:07.891Z"><meta name="twitter:card" content="summary"><script>var activateDarkMode = function () {
+  document.documentElement.setAttribute('data-theme', 'dark')
+  if (document.querySelector('meta[name="theme-color"]') !== null) {
+    document.querySelector('meta[name="theme-color"]').setAttribute('content', '#000')
+  }
+}
+var activateLightMode = function () {
+  document.documentElement.setAttribute('data-theme', 'light')
+  if (document.querySelector('meta[name="theme-color"]') !== null) {
+    document.querySelector('meta[name="theme-color"]').setAttribute('content', '#fff')
+  }
+}
+
+var getCookies = function (name) {
+  const value = `; ${document.cookie}`
+  const parts = value.split(`; ${name}=`)
+  if (parts.length === 2) return parts.pop().split(';').shift()
+}
+
+var autoChangeMode = 'false'
+var t = getCookies('theme')
+if (autoChangeMode === '1') {
+  var isDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches
+  var isLightMode = window.matchMedia('(prefers-color-scheme: light)').matches
+  var isNotSpecified = window.matchMedia('(prefers-color-scheme: no-preference)').matches
+  var hasNoSupport = !isDarkMode && !isLightMode && !isNotSpecified
+
+  if (t === undefined) {
+    if (isLightMode) activateLightMode()
+    else if (isDarkMode) activateDarkMode()
+    else if (isNotSpecified || hasNoSupport) {
+      console.log('You specified no preference for a color scheme or your browser does not support it. I Schedule dark mode during night time.')
+      var now = new Date()
+      var hour = now.getHours()
+      var isNight = hour <= 6 || hour >= 18
+      isNight ? activateDarkMode() : activateLightMode()
+    }
+    window.matchMedia('(prefers-color-scheme: dark)').addListener(function (e) {
+      if (Cookies.get('theme') === undefined) {
+        e.matches ? activateDarkMode() : activateLightMode()
+      }
+    })
+  } else if (t === 'light') activateLightMode()
+  else activateDarkMode()
+} else if (autoChangeMode === '2') {
+  now = new Date()
+  hour = now.getHours()
+  isNight = hour <= 6 || hour >= 18
+  if (t === undefined) isNight ? activateDarkMode() : activateLightMode()
+  else if (t === 'light') activateLightMode()
+  else activateDarkMode()
+} else {
+  if (t === 'dark') activateDarkMode()
+  else if (t === 'light') activateLightMode()
+}</script><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/node-snackbar/dist/snackbar.min.css"><link rel="next" title="MCJiu的第一篇博客" href="https://mcjiu.github.io/2020/07/06/MCJiu%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/"><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/gitalk/dist/gitalk.min.css"><script src="https://cdn.jsdelivr.net/npm/gitalk@latest/dist/gitalk.min.js"></script><script src="https://cdn.jsdelivr.net/npm/blueimp-md5/js/md5.min.js"></script><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Titillium+Web&amp;display=swap"><script>var GLOBAL_CONFIG = { 
+  root: '/',
+  algolia: undefined,
+  localSearch: undefined,
+  translate: {"defaultEncoding":2,"translateDelay":0,"msgToTraditionalChinese":"繁","msgToSimplifiedChinese":"简"},
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  bookmark: {
+    message_prev: '按',
+    message_next: '键将本页加入书签'
+  },
+  runtime_unit: '天',
+  runtime: true,
+  copyright: undefined,
+  ClickShowText: undefined,
+  medium_zoom: false,
+  fancybox: true,
+  Snackbar: {"bookmark":{"message_prev":"按","message_next":"键将本页加入书签"},"chs_to_cht":"你已切换为繁体","cht_to_chs":"你已切换为简体","day_to_night":"你已切换为深色模式","night_to_day":"你已切换为浅色模式","bgLight":"#49b1f5","bgDark":"#121212","position":"bottom-left"},
+  justifiedGallery: {
+    js: 'https://cdn.jsdelivr.net/npm/justifiedGallery/dist/js/jquery.justifiedGallery.min.js',
+    css: 'https://cdn.jsdelivr.net/npm/justifiedGallery/dist/css/justifiedGallery.min.css'
+  },
+  baiduPush: false,
+  highlightCopy: true,
+  highlightLang: true,
+  isPhotoFigcaption: false,
+  islazyload: true,
+  isanchor: true    
+}</script><script>var GLOBAL_CONFIG_SITE = { 
+  isPost: true,
+  isHome: false,
+  isHighlightShrink: false,
+  isSidebar: true
+  }</script><noscript><style>
+#nav {
+  opacity: 1
+}
+.justified-gallery img{
+  opacity: 1
+}
+</style></noscript><meta name="generator" content="Hexo 4.2.1"></head><body><canvas class="fireworks"></canvas><div id="mobile-sidebar"><div id="menu_mask"></div><div id="mobile-sidebar-menus"><div class="mobile_author_icon"><img class="avatar-img" src="/img/avatar.gif" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="mobile_post_data"><div class="mobile_data_item is-center"><div class="mobile_data_link"><a href="/archives/"><div class="headline">文章</div><div class="length_num">2</div></a></div></div><div class="mobile_data_item is-center">      <div class="mobile_data_link"><a href="/tags/"><div class="headline">标签</div><div class="length_num">1</div></a></div></div></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 时间轴</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page"><i class="fa-fw fas fa-list"></i><span> 清单</span><i class="fas fa-chevron-down menus-expand"></i></a><ul class="menus_item_child"><li><a class="site-page" href="/music/"><i class="fa-fw fas fa-music"></i><span> 音乐</span></a></li><li><a class="site-page" href="/movies/"><i class="fa-fw fas fa-video"></i><span> 电影</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div></div></div><i class="fas fa-arrow-right on" id="toggle-sidebar"></i><div id="sidebar"><div class="sidebar-toc"><div class="sidebar-toc__title">目录</div><div class="sidebar-toc__progress"><span class="progress-notice">你已经读了</span><span class="progress-num">0</span><span class="progress-percentage">%</span><div class="sidebar-toc__progress-bar">     </div></div><div class="sidebar-toc__content"><ol class="toc"><li class="toc-item toc-level-3"><a class="toc-link" href="#初起绵中"><span class="toc-number">1.</span> <span class="toc-text">初起绵中</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#争权造势"><span class="toc-number">2.</span> <span class="toc-text">争权造势</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#焦杨恩怨"><span class="toc-number">3.</span> <span class="toc-text">焦杨恩怨</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#闲情雅致"><span class="toc-number">4.</span> <span class="toc-text">闲情雅致</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#骚王失势"><span class="toc-number">5.</span> <span class="toc-text">骚王失势</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#骚王去世"><span class="toc-number">6.</span> <span class="toc-text">骚王去世</span></a></li></ol></div></div></div><div id="body-wrap"><div id="web_bg" data-type="photo"></div><header class="post-bg" id="page-header" style="background-image: url(/img/cover2.jpg)"><nav id="nav"><span class="pull-left" id="blog_name"><a class="blog_title" id="site-name" href="/">Welcome to MCJiu's Blog!</a></span><span class="pull-right menus"><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 时间轴</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page"><i class="fa-fw fas fa-list"></i><span> 清单</span><i class="fas fa-chevron-down menus-expand"></i></a><ul class="menus_item_child"><li><a class="site-page" href="/music/"><i class="fa-fw fas fa-music"></i><span> 音乐</span></a></li><li><a class="site-page" href="/movies/"><i class="fa-fw fas fa-video"></i><span> 电影</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div><span class="toggle-menu close"><a class="site-page"><i class="fas fa-bars fa-fw"></i></a></span></span></nav><div id="post-info"><div id="post-title"><div class="posttitle">竞赛生史·戈骚传</div></div><div id="post-meta"><div class="meta-firstline"><time class="post-meta__date"><span class="post-meta__date-created" title="发表于 2020-07-13 00:00:00"><i class="far fa-calendar-alt fa-fw"></i> 发表于 2020-07-13</span><span class="post-meta__separator">|</span><span class="post-meta__date-updated" title="更新于 2020-07-19 15:35:07"><i class="fas fa-history fa-fw"></i> 更新于 2020-07-19</span></time></div><div class="meta-secondline"> <span class="post-meta-wordcount"><i class="far fa-file-word fa-fw post-meta__icon"></i><span>字数总计:</span><span class="word-count">1.1k</span><span class="post-meta__separator">|</span><i class="far fa-clock fa-fw post-meta__icon"></i><span>阅读时长: 3 分钟</span></span></div><div class="meta-thirdline"><span class="post-meta-pv-cv"><span class="post-meta__separator">|</span><i class="far fa-eye fa-fw post-meta__icon"></i><span>阅读量:</span><span id="busuanzi_value_page_pv"></span></span><span class="post-meta-commentcount"><span class="post-meta__separator">|</span><i class="far fa-comments fa-fw post-meta__icon"></i><span>评论数:</span><a href="/2020/07/13/%E7%AB%9E%E8%B5%9B%E7%94%9F%E5%8F%B2%C2%B7%E6%88%88%E9%AA%9A%E4%BC%A0/#post-comment"><span class="gitalk-comment-count comment-count"></span></a></span></div></div></div></header><main class="layout_post" id="content-inner"><article id="post"><div class="post-content" id="article-container"><blockquote>
+<p>注意：本文由胡教授所著，所有权和著作权归胡教授所有</p>
+</blockquote>
+<h3 id="初起绵中"><a href="#初起绵中" class="headerlink" title="初起绵中"></a>初起绵中</h3><p>杨戈骚，涪城人也，字弋霄，号器骚仙人。共和国六十七年，中考得利，升入绵中。夏令营时，如愿考入化竞，与胡某结为好友，彼此互利互损。同时遇教练焦哥，因表现出众，被焦哥器重。其与其他竞赛及常规大佬亦交往甚多，人脉广。戈骚与绵中之孽缘便由此展开。<br>开学后，分至焦哥所领之二班，被焦哥选为班长，统揽大权，与其同桌郗氏交友。戈骚才高艺精，通读《毛泽东思想》《马克思主义十五讲》等书，且一目十行，过目不忘，由是一学月考中政史地大大领先，借此摘得月考之桂冠。焦哥愈加器重戈骚，因此其权益重。</p>
+<h3 id="争权造势"><a href="#争权造势" class="headerlink" title="争权造势"></a>争权造势</h3><p>初，骚于班中，号令众生，未有不服。然其权重后，强施号令，四处争权，甚至加入学生会，欲统众生，因此众人稍有怨意。于化竞班更为甚。一日早晨，众化竞生前往教室，而戈骚暂有事耽延，问而求之门钥，戈骚不与，于是众人便等至戈骚来才进入教室，多有愤然不平之意。</p>
+<p><img src= "/img/loading.gif" data-src="img/ss.jpg" alt="骚骚"></p>
+<h3 id="焦杨恩怨"><a href="#焦杨恩怨" class="headerlink" title="焦杨恩怨"></a>焦杨恩怨</h3><p>戈骚亦为正直之人。焦哥常吸烟，伤害身体，戈骚欲助焦哥戒之，便将其烟藏于桌中。焦哥寻烟不得，便无法吸烟。谁料化竞班中有一人偶见烟于戈骚桌中，立马告之于焦哥。焦哥大怒，欲向戈骚问罪，但戈骚权高又有利于焦哥，故未重罚。焦哥想起骚乃学生会员，心生一计。一日，焦哥召戈骚往办公室，语重心长地说：“戈骚，你最近学习有点跟不上吗？”未等骚开口，又说：“把学生会停了吧，耽误时间。”骚不敢多语，只好照做。</p>
+<h3 id="闲情雅致"><a href="#闲情雅致" class="headerlink" title="闲情雅致"></a>闲情雅致</h3><p>戈骚乃风骚之人。每行走于校园之中，人流稀疏时则跑步而行，人流密集时则侧转疾行，风骚至极。或午时抢饭，或夜时归寝，只见一人上身通绿或通粉，于茫茫人海中时而侧身穿行，或又转身飞跃，恍入无人之境，而不与一人相撞。<br>傍晚，戈骚虽为走读生，但常光顾男生寝室。只见独自一人，双手背后，走至一楼铁栏旁，环视于外，自曰“观察芸芸众生”。少顷，便有几好友陆续而来，骚大喜而与交谈。谈至欢处，便直接与之入寝室，待熄灯时方归。</p>
+<h3 id="骚王失势"><a href="#骚王失势" class="headerlink" title="骚王失势"></a>骚王失势</h3><p>光阴驰，半期至，而半期出分之日，乃竞赛班重排之时。骚固无所忧，因其成绩向来优异。果然，得理科榜眼，大喜。骚早欲往一班与一友人同桌，借此重排之时，同焦哥诉说。焦哥却欲留此奇才，便暂且支吾应付，未明确答应。不料此事被李波所略知。一日，波至化竞班，便于骚说：“来一班吧，和XXX做同桌！”焦哥听闻，忙拒之，波只好出室。<br>不久，分班结果出，二班被拆而三班代之，戈骚果然分至新二班，略有不服，欲求焦哥而无果。谁料，新二班中原三班人多势众，新班委等皆由其担任，戈骚便由班长降为庶民，大病三日。</p>
+<h3 id="骚王去世"><a href="#骚王去世" class="headerlink" title="骚王去世"></a>骚王去世</h3><p>由于高2017届竞赛的退役，六艺楼分配给了2019届数、物、化三班。骚大病初愈，又换教室，极为兴奋。晚间自习，动静过大，惨遭物理教练吴红制裁，罚化竞晚自习无课间。骚愤然而不能平，扼腕捶胸叹息。临近下课，戈骚听闻物竞班人生鼎沸，又见吴红不在班内，此乃天赐报仇之良机。于是戈骚愤然出门，轻咳两声，又大声喊到：“物理班的不要再说话了！”话音落全场寂，数秒后，骚命定。只见物竞班中接连飞出黑白皮、托马斯微积分，正中戈骚头部，往医院途中不幸身亡。后有人歌曰：“无奈弋霄骚又嚣，谁料此番遭这遭。正直可爱又骚气，怎能物竞门外飙？”</p>
+</div><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta">文章作者: </span><span class="post-copyright-info"><a href="mailto:2079908934@qq.com">MCJiu</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta">文章链接: </span><span class="post-copyright-info"><a href="https://mcjiu.github.io/2020/07/13/%E7%AB%9E%E8%B5%9B%E7%94%9F%E5%8F%B2%C2%B7%E6%88%88%E9%AA%9A%E4%BC%A0/">https://mcjiu.github.io/2020/07/13/%E7%AB%9E%E8%B5%9B%E7%94%9F%E5%8F%B2%C2%B7%E6%88%88%E9%AA%9A%E4%BC%A0/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta">版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来自 <a href="https://mcjiu.github.io" target="_blank">Welcome to MCJiu's Blog!</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"></div><div class="post_share"><div class="social-share" data-image="/img/cover1.png" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/social-share.js/dist/css/share.min.css"/><script src="https://cdn.jsdelivr.net/npm/social-share.js/dist/js/social-share.min.js"></script></div></div><nav class="pagination-post" id="pagination"><div class="next-post pull-full"><a href="/2020/07/06/MCJiu%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/"><img class="next-cover" data-src="/img/cover1.png" onerror="onerror=null;src='/img/404.jpg'"><div class="pagination-info"><div class="label">下一篇</div><div class="next_info">MCJiu的第一篇博客</div></div></a></div></nav><hr><div id="post-comment"><div class="comment_headling"><i class="fas fa-comments fa-fw"></i><span> 评论</span></div><div id="gitalk-container"></div><script>var gitalk = new Gitalk({
+  clientID: '1ab1b998caf661923738',
+  clientSecret: 'db5463194199a4155f212ec5fb5c975239eb1870',
+  repo: 'realcomments',
+  owner: 'mcjiu',
+  admin: ['mcjiu'],
+  id: md5(decodeURI(location.pathname)),
+  language: 'zh-CN',
+  perPage: 10,
+  distractionFreeMode: false,
+  pagerDirection: 'last',
+  createIssueManually: false,
+  updateCountCallback: commentCount
+})
+gitalk.render('gitalk-container')
+
+function commentCount(n){
+  try {
+    document.getElementsByClassName('gitalk-comment-count')[0].innerHTML= n
+  } catch (e) {
+    return false
+  }
+}</script></div></article></main><footer id="footer" data-type="color"><div id="footer-wrap"><div class="copyright">&copy;2020 By MCJiu</div><div class="framework-info"><span>驱动 </span><a href="https://hexo.io" target="_blank" rel="noopener"><span>Hexo</span></a><span class="footer-separator">|</span><span>主题 </span><a href="https://github.com/jerryc127/hexo-theme-butterfly" target="_blank" rel="noopener"><span>Butterfly</span></a></div><div class="footer_custom_text">MCJiu 保留所有权利</div></div></footer></div><section class="rightside" id="rightside"><div id="rightside-config-hide"><button id="readmode" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="font_plus" title="放大字体"><i class="fas fa-plus"></i></button><button id="font_minus" title="缩小字体"><i class="fas fa-minus"></i></button><button class="translate_chn_to_cht" id="translateLink" title="简繁转换">繁</button><button id="darkmode" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button></div><div id="rightside-config-show"><button id="rightside_config" title="设置"><i class="fas fa-cog"></i></button><a id="to_comment" href="#post-comment" title="直达评论"><i class="scroll_to_comment fas fa-comments"></i></a><button class="close" id="mobile-toc-button" title="目录"><i class="fas fa-list-ul"></i></button><button id="chat_btn" title="rightside.chat_btn"><i class="fas fa-sms"></i></button><button id="go-up" title="回到顶部"><i class="fas fa-arrow-up"></i></button></div></section><script src="https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js"></script><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="/js/tw_cn.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.js"></script><script src="https://cdn.jsdelivr.net/npm/animejs@latest/anime.min.js"></script><script src="/js/third-party/fireworks.js"></script><script src="https://cdn.jsdelivr.net/npm/node-snackbar/dist/snackbar.min.js"></script><script id="canvas_nest" color="0,0,255" opacity="0.7" zIndex="-1" count="99" mobile="false" src="/js/third-party/canvas-nest.js"></script><script src="/js/third-party/activate-power-mode.js"></script><script>POWERMODE.colorful = true;
+POWERMODE.shake = true;
+document.body.addEventListener('input', POWERMODE);
+</script><script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script><script src="https://cdn.jsdelivr.net/npm/instant.page/instantpage.min.js" type="module" defer></script><script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload/dist/lazyload.iife.min.js" async></script><script>if (document.getElementsByClassName('mermaid').length) {
+  loadScript('https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js',function () {
+    mermaid.initialize({
+      theme: 'default',
+  })
+})
+}</script><script>var isChatBtn = true
+
+if (isChatBtn) {
+  ((window.gitter = {}).chat = {}).options = {
+    room: 'MCJiu/mcjiublog',
+    activationElement: '#chat_btn'
+  };
+} else {
+  ((window.gitter = {}).chat = {}).options = {
+    room: 'MCJiu/mcjiublog',
+  };
+
+  if (false) {
+    var gitterBtn = document.getElementsByClassName('gitter-open-chat-button')
+
+    function chatBtnHide () {
+      gitterBtn[0].style.display= 'none'
+    }
+
+    function chatBtnShow () {
+      gitterBtn[0].style.display= 'block'
+    }
+  }
+}
+</script><script src="https://sidecar.gitter.im/dist/sidecar.v1.js" async="async" defer="defer"></script></body></html>
