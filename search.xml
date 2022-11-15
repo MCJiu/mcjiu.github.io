@@ -105,11 +105,11 @@
     
     
     <entry>
-      <title>音乐</title>
-      <link href="/music/index.html"/>
-      <url>/music/index.html</url>
+      <title>友链</title>
+      <link href="/link/index.html"/>
+      <url>/link/index.html</url>
       
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><blockquote><p>下面是我喜欢的一些歌曲，欢迎你来欣赏哦！<br>PS：我没有盗版音乐哦，这里用的是基于Meting API的APlayer衍生播放器。</p></blockquote><h3 id="儿歌王Hanser！"><a href="#儿歌王Hanser！" class="headerlink" title="儿歌王Hanser！"></a>儿歌王Hanser！</h3>    <div id="aplayer-dsoIDdRF" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="708801848" data-server="netease" data-type="playlist" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#ad7a86"    ></div><h3 id="Warma"><a href="#Warma" class="headerlink" title="Warma"></a>Warma</h3>    <div id="aplayer-bYehYqIo" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="2743631380" data-server="netease" data-type="playlist" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#ad7a86"    ></div><h3 id="震撼纯音"><a href="#震撼纯音" class="headerlink" title="震撼纯音"></a>震撼纯音</h3>    <div id="aplayer-gDDiIfkc" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="424207055" data-server="netease" data-type="playlist" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#ad7a86"    ></div><h3 id="适合学习的BGM"><a href="#适合学习的BGM" class="headerlink" title="适合学习的BGM"></a>适合学习的BGM</h3>    <div id="aplayer-VDQFXCac" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="66641056" data-server="netease" data-type="playlist" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#ad7a86"    ></div>]]></content>
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script>]]></content>
       
     </entry>
     
@@ -127,20 +127,20 @@
     
     
     <entry>
-      <title>标签</title>
-      <link href="/tags/index.html"/>
-      <url>/tags/index.html</url>
+      <title>音乐</title>
+      <link href="/music/index.html"/>
+      <url>/music/index.html</url>
       
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script>]]></content>
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><blockquote><p>下面是我喜欢的一些歌曲，欢迎你来欣赏哦！<br>PS：我没有盗版音乐哦，这里用的是基于Meting API的APlayer衍生播放器。</p></blockquote><h3 id="儿歌王Hanser！"><a href="#儿歌王Hanser！" class="headerlink" title="儿歌王Hanser！"></a>儿歌王Hanser！</h3>    <div id="aplayer-KKNLDvru" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="708801848" data-server="netease" data-type="playlist" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#ad7a86"    ></div><h3 id="Warma"><a href="#Warma" class="headerlink" title="Warma"></a>Warma</h3>    <div id="aplayer-UYofBoiv" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="2743631380" data-server="netease" data-type="playlist" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#ad7a86"    ></div><h3 id="震撼纯音"><a href="#震撼纯音" class="headerlink" title="震撼纯音"></a>震撼纯音</h3>    <div id="aplayer-eaGKEIeE" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="424207055" data-server="netease" data-type="playlist" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#ad7a86"    ></div><h3 id="适合学习的BGM"><a href="#适合学习的BGM" class="headerlink" title="适合学习的BGM"></a>适合学习的BGM</h3>    <div id="aplayer-LJSVuvtd" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="66641056" data-server="netease" data-type="playlist" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#ad7a86"    ></div>]]></content>
       
     </entry>
     
     
     
     <entry>
-      <title>友链</title>
-      <link href="/link/index.html"/>
-      <url>/link/index.html</url>
+      <title>标签</title>
+      <link href="/tags/index.html"/>
+      <url>/tags/index.html</url>
       
         <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script>]]></content>
       
